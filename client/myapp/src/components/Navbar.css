@@ -1,0 +1,113 @@
+.navbar {
+    height: 70px;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 40px;
+}
+
+/* Logo */
+
+.navbar-logo {
+    flex: 1;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    color: var(--primary);
+}
+
+/* Center Menu */
+
+.navbar-menu {
+    flex: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+
+    color: var(--text-secondary);
+
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+
+    position: relative;
+}
+
+.navbar-menu a:hover {
+    color: var(--primary);
+}
+
+.navbar-menu a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -6px;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--primary);
+
+    transition: width 0.3s ease;
+}
+
+.navbar-menu a:hover::after {
+    width: 100%;
+}
+
+/* Right Section */
+
+.logout-btn {
+    flex: 1;
+
+    max-width: 120px;
+
+    margin-left: auto;
+
+    background: var(--primary);
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: var(--primary-dark);
+
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+}

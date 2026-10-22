@@ -1,0 +1,73 @@
+.askai-card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    margin-bottom:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border:1px solid #e5e7eb;
+}
+
+.askai-card h2{
+    color:#2563eb;
+    font-size:28px;
+    margin-bottom:25px;
+}
+
+.askai-textarea{
+    width:100%;
+    min-height:140px;
+    padding:15px;
+    border:1px solid #d1d5db;
+    border-radius:12px;
+    font-size:16px;
+    resize:vertical;
+    outline:none;
+    transition:.3s;
+}
+
+.askai-textarea:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
+
+.askai-btn{
+    margin-top:20px;
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+    color:#fff;
+    padding:12px 28px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.askai-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
+}
+
+.askai-btn:disabled{
+    opacity:.6;
+    cursor:not-allowed;
+}
+
+.askai-answer{
+    margin-top:30px;
+    background:#f8fafc;
+    border-left:5px solid #2563eb;
+    padding:20px;
+    border-radius:12px;
+}
+
+.askai-answer h3{
+    margin-bottom:12px;
+    color:#2563eb;
+}
+
+.askai-answer p{
+    line-height:1.8;
+    color:#333;
+    white-space:pre-wrap;
+}

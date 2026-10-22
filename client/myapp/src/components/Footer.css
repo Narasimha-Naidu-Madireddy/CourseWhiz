@@ -1,0 +1,57 @@
+.footer{
+
+    margin-top:2px;
+
+    padding:25px 20px;
+
+    text-align:center;
+
+    background:#1f2937;
+
+    color:white;
+
+}
+
+.footer h2{
+
+    color:#60a5fa;
+
+    margin-bottom:5px;
+
+    font-size:20px;
+
+}
+
+.footer p{
+
+    margin:5px 0;
+
+    color:#d1d5db;
+
+}
+
+.footer-tech{
+
+    color:#93c5fd;
+
+    font-weight:500;
+
+}
+
+.footer hr{
+
+    width:220px;
+
+    margin:10px auto;
+
+    border:none;
+
+    border-top:1px solid #4b5563;
+
+}
+
+.footer small{
+
+    color:#9ca3af;
+
+}

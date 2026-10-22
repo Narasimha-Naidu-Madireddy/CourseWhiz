@@ -1,0 +1,125 @@
+.ai-page{
+    min-height:100vh;
+    background:#f5f7fb;
+}
+
+.ai-content{
+    padding:40px 50px;
+}
+
+.ai-hero{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.ai-hero h1{
+    font-size:44px;
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.ai-hero p{
+    font-size:18px;
+    color:#666;
+}
+
+.tools-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.tool-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.tool-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.tool-card h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+}
+
+.tool-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.tool-card p{
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+.ai-info{
+
+    margin-top:60px;
+
+    text-align:center;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.ai-info h2{
+
+    margin-bottom:15px;
+
+}
+
+.ai-info p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+    line-height:1.8;
+
+}
+
+.ai-info button{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:14px 30px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
